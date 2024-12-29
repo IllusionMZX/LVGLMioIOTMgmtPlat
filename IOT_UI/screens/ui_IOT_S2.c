@@ -158,6 +158,7 @@ void ui_IOT_S2_screen_init(void)
 
     lv_obj_add_event_cb(ui_Label8, ui_event_Label8, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_Button5, ui_event_Button5, LV_EVENT_ALL, NULL);
+    lv_obj_add_event_cb(ui_Button2, ui_event_Button2, LV_EVENT_ALL, NULL);
     lv_obj_add_event_cb(ui_IOT_S2, ui_event_IOT_S2, LV_EVENT_ALL, NULL);
 
 }

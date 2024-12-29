@@ -7,9 +7,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR})
 
 file(GLOB_RECURSE INCLUDES "lv_drivers/*.h" "IOT_UI/*.h" "MQTT/*.h" "lvgl/*.h"  "./*.h" )
-file(GLOB_RECURSE SOURCES  "lv_drivers/*.c" "IOT_UI/*.c" "MQTT/*.c" "lvgl/src/*.c" )
+file(GLOB_RECURSE SOURCES  "lv_drivers/*.c" "IOT_UI/*.c" "MQTT/*.c" "lvgl/src/*.c")
 file(COPY SDL2.dll DESTINATION ../bin)
-
+file(COPY SQLite_File/mqtt_config.db DESTINATION ../bin)
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET(CMAKE_CXX_FLAGS "-O3")
 

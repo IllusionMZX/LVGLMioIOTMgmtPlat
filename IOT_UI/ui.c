@@ -155,6 +155,7 @@ lv_obj_t * ui_Label10;
 void ui_event_Button5(lv_event_t * e);
 lv_obj_t * ui_Button5;
 lv_obj_t * ui_Label11;
+void ui_event_Button2(lv_event_t * e);
 lv_obj_t * ui_Button2;
 lv_obj_t * ui_Label4;
 
@@ -963,6 +964,15 @@ void ui_event_Button5(lv_event_t * e)
     lv_obj_t * target = lv_event_get_target(e);
     if(event_code == LV_EVENT_CLICKED) {
         _ui_screen_change(&ui_IOT_S3, LV_SCR_LOAD_ANIM_FADE_ON, 0, 400, &ui_IOT_S3_screen_init);
+    }
+}
+
+void ui_event_Button2(lv_event_t * e)
+{
+    lv_event_code_t event_code = lv_event_get_code(e);
+    lv_obj_t * target = lv_event_get_target(e);
+    if(event_code == LV_EVENT_CLICKED) {
+        _ui_screen_change(&ui_IOT_S9, LV_SCR_LOAD_ANIM_FADE_ON, 0, 400, &ui_IOT_S3_screen_init);
     }
 }
 void ui_event_IOT_S4(lv_event_t * e)

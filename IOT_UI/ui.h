@@ -143,6 +143,7 @@ extern lv_obj_t * ui_Label10;
 void ui_event_Button5(lv_event_t * e);
 extern lv_obj_t * ui_Button5;
 extern lv_obj_t * ui_Label11;
+void ui_event_Button2(lv_event_t * e);
 extern lv_obj_t * ui_Button2;
 extern lv_obj_t * ui_Label4;
 // SCREEN: ui_IOT_S4
