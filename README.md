@@ -6,6 +6,7 @@
 
 **基于LVGL的嵌入式物联网管理平台**
 
+
 ## <span id="cn">MioIOTMgmtPlat</span>
 
 ### 上手指南
@@ -75,6 +76,15 @@
 ```sh
 ./MioIOTMgmtPlat
 ```
+
+<div align="center">
+  <img src="image/1.png" alt="Image 1" width="200" />
+  <img src="image/2.png" alt="Image 2" width="200" />
+</div>
+<div align="center">
+  <img src="image/3.png" alt="Image 3" width="200" />
+  <img src="image/4.png" alt="Image 4" width="200" />
+</div>
 
 ## <span id="en">MioIOTMgmtPlat</span>
 
